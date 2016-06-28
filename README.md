@@ -1,8 +1,6 @@
-This is an extension of the scraper for the Food and Exercise diary offered by MyFitnessPal.com by holtchesley.
+A simple scraper for a user's Food and Exercise diary offered by MyFitnessPal.com.
 
-Requirements: scrapy.
-
-`pip install scrapy`
+Requirements: `pip install scrapy`
 
 ### Usage
 
