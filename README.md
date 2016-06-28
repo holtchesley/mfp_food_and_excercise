@@ -12,14 +12,14 @@ cd mfp_food_and_excercise
 USERNAME=your_fitnesspal_username
 PASSWORD=your_fitnesspal_password
 DATE='2016-05-21'
-scrapy crawl -a username=$USERNAME -a password=$PASSWORD -a target_date=DATE --nolog mfp
+scrapy crawl -a username=$USERNAME -a password=$PASSWORD -a target_date=$DATE --nolog mfp
 ```
 
 You can also add in a start date to grab all logs between the start date and the target date:
 
 ```bash
 START_DATE='2016-05-01'
-scrapy crawl -a username=$USERNAME -a password=$PASSWORD -a target_date=DATE -a start_date=START_DATE --nolog mfp
+scrapy crawl -a username=$USERNAME -a password=$PASSWORD -a target_date=$DATE -a start_date=$START_DATE --nolog mfp
 ```
 
 ### Output
