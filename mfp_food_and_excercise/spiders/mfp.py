@@ -12,7 +12,7 @@ class MfpSpider(scrapy.Spider):
     )
 
     def __init__(self, username='', password='', start_date=None, target_date='', 
-        target_file='', outdir='outdir', *args, **kwargs):
+        target_file='', outdir='output', *args, **kwargs):
         super(MfpSpider, self).__init__(*args, **kwargs)
         self.username = username
         self.password = password
