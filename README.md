@@ -24,7 +24,7 @@ scrapy crawl -a username=$USERNAME -a password=$PASSWORD -a target_date=$DATE -a
 
 ### Output
 
-This will create two files in the `output/` directory:
+This will create files in the `output/` directory that look like this:
 
 ````
 YYYY-MM-DD-excercise.csv
@@ -32,7 +32,7 @@ YYYY-MM-DD-food.csv
 ````
 
 Columns in these tables are delimited with tabs.
-Some of the rows in the food csv will be meal names such as "BREAKFAST", "LUNCH", etc.
+Some of the rows in the food csvs will be meal names such as "BREAKFAST", "LUNCH", etc.
 You can parse (and remove) these rows, as well as combine files across multiple dates, using the `combine.py` helper script:
 
 ```python
