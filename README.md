@@ -31,7 +31,7 @@ YYYY-MM-DD-excercise.csv
 YYYY-MM-DD-food.csv
 ````
 
-Columns in these tables are delimited with commas.
+Columns in these tables are delimited with tabs.
 Some of the rows in the food csv will be meal names such as "BREAKFAST", "LUNCH", etc.
 You can parse (and remove) these rows, as well as combine files across multiple dates, using the `combine.py` helper script:
 
